@@ -43,7 +43,7 @@
         public IReadOnlyList<Moon> Moons => moons.AsReadOnly();
 
         /// <summary>
-        /// Associates a natural sattelite with its planet.
+        /// Associates a natural satellite with its planet.
         /// </summary>
         /// <param name="moon"></param>
         public void AddMoon(Moon moon)
